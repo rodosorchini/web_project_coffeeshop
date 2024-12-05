@@ -27,14 +27,6 @@
     position: relative;
 }
 
-.header__content {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    position: relative;
-    margin-bottom: auto;
-}
-
 .header__title {
     max-width: 709px;
     margin: 0 0 28px 80px;
