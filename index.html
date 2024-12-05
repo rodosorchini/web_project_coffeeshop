@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,9 +22,107 @@
     </head>
     <body>
         <div class="page">
-            <header class="header"></header>
+            <header class="header">
+                <nav class="nav">
+                    <img
+                        src="./images/logo_coffeeshop_dark.svg"
+                        alt="Logotipo de la cafeteria"
+                        class="nav__logo"
+                    />
+                    <ul class="nav__links">
+                        <li>
+                            <a class="nav__link" href="#recipes">Recetas</a>
+                        </li>
+                        <li>
+                            <a class="nav__link">Reservar una mesa</a>
+                        </li>
+                        <li>
+                            <a class="nav__link">Contactos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__content">
+                    <h1 class="header__title">en Triple Peaks</h1>
+                    <p class="header__description">
+                        ¡Te damos la bienvenida a nuestra zona de estudio! Aquí
+                        tenemos café para darte energía y motivar tu
+                        creatividad.
+                    </p>
+                    <span class="header__span-accent"
+                        >Café de especialidad</span
+                    >
+                </div>
+
+                <img
+                    src="./images/inside_coffee_shop.png"
+                    alt="fondo de cafetería para ilustración"
+                    class="header__image"
+                />
+                <div class="header__footer">
+                    <div class="header__footer-time">
+                        <p class="header__paragraph">Horario:</p>
+                        <p class="header__paragraph">
+                            Lunes a Viernes (de 11:00h a 18:00h)
+                        </p>
+                        <p class="header__paragraph">
+                            Sábados y Domingos (de 11:00h a 18:00h)
+                        </p>
+                    </div>
+                    <div class="header__footer-address">
+                        <p class="header__paragraph">
+                            Avenida del éxito 200, Ciudad Triple Peaks
+                        </p>
+                    </div>
+                </div>
+            </header>
             <main class="content">
-                <section class="recipes"></section>
+                <section class="recipes" id="recipes">
+                    <h2 class="recipes__title">Recetas</h2>
+                    <h3 class="recipes__subtitle">
+                        Echa un vistazo a las recetas que hemos reunido para que
+                        elabores tus propios snacks.
+                    </h3>
+                    <div class="recipes__videos">
+                        <div class="recipes__video-item">
+                            <iframe
+                                class="recipes__iframe"
+                                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vxPIuIrWDsN7YUVE"
+                                title="The Ultimate AeroPress Technique_episode3"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            >
+                            </iframe>
+                            <div class="recipes__video-caption">
+                                <p class="recipes__video-caption-text">
+                                    Receta en Aeropress
+                                </p>
+                                <p class="recipes__video-caption-duration">
+                                    ~5 min
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="recipes__video-item">
+                            <iframe
+                                class="recipes__iframe"
+                                src="https://www.youtube.com/embed/st571DYYTR8?si=oDb9Yq4DJZO4-fzB"
+                                title="The ultimate French Press Technique"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                            <div class="recipes__video-caption">
+                                <p class="recipes__video-caption-text">
+                                    Receta en cafetera francesa
+                                </p>
+                                <p class="recipes__video-caption-duration">
+                                    ~15 min
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section class="reservation"></section>
             </main>
             <footer class="footer"></footer>
